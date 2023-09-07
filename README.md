@@ -20,11 +20,11 @@ __emma_pvalue_indices.py__ -> creates a csv file that helps to map the scores fr
 
 ------------------------------------------------
 
-The data directory includes phenotype data that is not publicly available. (FT for each replicate)
+The data directory includes phenotype data that is not publicly available (FT for each replicate).
 
-To run firstpass_script.py & evaluation_firstpass.py , the following script must be run first: \\
-- gene_annotation_script.py \\
-- emma_pvalue_indices.py \\
+To run firstpass_script.py & evaluation_firstpass.py , the following script must be run first: 
+- gene_annotation_script.py 
+- emma_pvalue_indices.py 
 
 To run secondpass_script.py & evaluation_secondpass.py , the following script must be run first: \\
 - firstpass_script.py \\
