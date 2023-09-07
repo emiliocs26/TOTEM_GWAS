@@ -17,3 +17,16 @@ __gene_annotation_script.py__ -> script to map each SNP to a gene using Araport1
 __plotting_emma_results.py__ -> script to make Manhatten plots out of the results from classical GWAS.
 
 __emma_pvalue_indices.py__ -> creates a csv file that helps to map the scores from classical GWAS to the corresponding SNPs
+
+------------------------------------------------
+
+The data directory includes phenotype data that is not publicly available. (FT for each replicate)
+
+To run firstpass_script.py & evaluation_firstpass.py , the following script must be run first: \\
+- gene_annotation_script.py \\
+- emma_pvalue_indices.py \\
+
+To run secondpass_script.py & evaluation_secondpass.py , the following script must be run first: \\
+- firstpass_script.py \\
+- evaluation_firstpass.py \\
+- get_interactors.py
