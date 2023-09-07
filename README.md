@@ -27,6 +27,6 @@ To run firstpass_script.py & evaluation_firstpass.py , the following script must
 - emma_pvalue_indices.py 
 
 To run secondpass_script.py & evaluation_secondpass.py , the following script must be run first: \\
-- firstpass_script.py \\
-- evaluation_firstpass.py \\
+- firstpass_script.py 
+- evaluation_firstpass.py 
 - get_interactors.py
