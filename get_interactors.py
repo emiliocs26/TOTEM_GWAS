@@ -67,6 +67,9 @@ genes = ['AT2G13540', 'AT5G48300', 'AT1G75060', 'AT1G19330', 'AT4G24540',
 
 # get json files from the FLOR-ID Server with information about interactions of flowering time genes
 
+if "json_files" not in os.listdir("./data/"):
+    os.mkdir("./data/json_files")
+
 if len(os.listdir("./data/json_files")) != 306:
 
     print("download of JSON files starting...")
