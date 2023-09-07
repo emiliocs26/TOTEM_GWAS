@@ -26,7 +26,7 @@ To run firstpass_script.py & evaluation_firstpass.py , the following script must
 - gene_annotation_script.py 
 - emma_pvalue_indices.py 
 
-To run secondpass_script.py & evaluation_secondpass.py , the following script must be run first: \\
+To run secondpass_script.py & evaluation_secondpass.py , the following script must be run first: 
 - firstpass_script.py 
 - evaluation_firstpass.py 
 - get_interactors.py
