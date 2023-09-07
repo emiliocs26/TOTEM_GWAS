@@ -18,11 +18,13 @@ __plotting_emma_results.py__ -> script to make Manhatten plots out of the result
 
 __emma_pvalue_indices.py__ -> creates a csv file that helps to map the scores from classical GWAS to the corresponding SNPs
 
+__makedirs.py__ -> creates directories the scripts use to save results
+
 ------------------------------------------------
 
 The data directory includes phenotype data that is not publicly available (FT for each replicate). 
  
-FIRST: run makedirs.py to creat all directories the scripts need to save their results  
+FIRST: run makedirs.py. It is necessary for the other scripts to work 
  
 Furthermore: 
 To run firstpass_script.py & evaluation_firstpass.py , the following script must be run first: 
